@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "AGP8"
 include(":app")
- 
