@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AGP8"
 include(":app")
+include(":asm_annotation")
