@@ -1,7 +1,6 @@
 *.iml
 .idea/
 .gradle
-.gradle/
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -15,8 +14,5 @@
 .externalNativeBuild
 .cxx
 local.properties
-
-# Project exclude paths
 /buildSrc/build/
-/buildSrc/build/classes/java/main/
-/buildSrc/build/classes/java/test/
+
