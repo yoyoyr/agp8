@@ -25,7 +25,7 @@ open class MethodTimeMethodVisitor(
 //            logger.println("${className}.$name")
             mv.visitMethodInsn(
                 INVOKESTATIC,
-                "com/asm/util/TextUtil",
+                "com/asm/agp8/util/TextUtil",
                 "methodIn",
                 "()V",
                 false
@@ -47,7 +47,7 @@ open class MethodTimeMethodVisitor(
 
             mv.visitMethodInsn(
                 INVOKESTATIC,
-                "com/asm/util/TextUtil",
+                "com/asm/agp8/util/TextUtil",
                 "methodOut",
                 "(JLjava/lang/String;)V",
                 false

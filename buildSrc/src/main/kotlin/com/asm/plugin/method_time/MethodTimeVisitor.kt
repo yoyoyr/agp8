@@ -10,7 +10,7 @@ class MethodTimeVisitor(nextClassVisitor: ClassVisitor) :
     private var className: String? = null
 
     private val shouldInterceptPKG = mutableListOf<String>().apply {
-        add("com/asm/privacymethodhooker")
+        add("com/asm/agp8/ui")
         add("com/commsource")
         add("com/meitu")
         add("com/pixocial/library/albumkit")//相册工具
